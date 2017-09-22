@@ -1,0 +1,178 @@
+body {
+    font: 14px Arial,Tahoma,sans-serif;
+    min-width: 360px;
+    max-width: 720px;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 15px 3.5% 30px;
+    box-sizing: border-box;
+}
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+    .about__photo {
+        flex: 0 1 28%;
+        position: relative;
+    }
+    .about__info {
+        flex: 1 1 auto;
+        padding-left: 2%;
+    }
+        .about__name {
+            font-weight: bold;
+            font-size: 16px;
+            padding-top: 8px;
+        }
+        .about__job {
+            color: #808080;
+            font-size: 12px;
+            margin-top: 4px;
+        }
+        .about__description {
+            margin-top: 6px;
+            background-color: #ffffcc;
+            padding: 8px 12px 8px 23%;
+            border: 1px solid #cecabf;
+            border-radius: 5px;
+            margin-left: -23%;
+            line-height: 20px;
+        }
+        .services__header {
+            font-size: 13px;
+            color: #333;
+            text-align: right;
+            margin-top: 12px;
+            padding-bottom: 6px;
+            padding-right: 12%;
+        }
+        .services__types {
+            padding: 14px 0 14px 0;
+            line-height: 23px;
+            font-size: 13px;
+            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+        }
+        .services__name {
+            padding-left: 7px;
+            padding-right: 14%;
+            margin-top: 2px;
+            background: linear-gradient(to right, #b1e19b 67% ,  transparent 0%);
+            border-left: 1px solid rgba(0,0,0,.4);
+        }
+        .services__name_tours {
+            background: linear-gradient(to right, #98e1ff 17% ,  transparent 0%);
+        }
+        .services__name_hotels {
+            background: linear-gradient(to right, #98e1ff 12% ,  transparent 0%);
+        }
+        .services__types span {
+            float: right;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .services__total {
+            font-weight: bold;
+            font-size: 16px;
+            padding-top: 15px;
+        }
+        .services__total span {
+            float: right;
+            padding-right: 14%;
+        }
+
+.reviews__header {
+
+}
+    .reviews__header h3 {
+        font-weight: bold;
+        font-size: 16px;
+        display: inline-block;
+    }
+    .reviews__btn {
+        margin-left: 4px;
+        font-size: 14px;
+        display: inline-block;
+        color: #005da1;
+        border-bottom: 1px solid #005da1;
+    }
+    .reviews__icons-container {
+        display: inline-block;
+        float: right;
+        padding-right: 2%;
+    }
+        .reviews__icon  {
+            font-size: 12px;
+            padding-left: 15px;
+            display: inline-block;
+        }
+        .reviews__icon_likes {
+            background: url(../img/like.png) left center no-repeat;
+            margin-right: 14px;
+        }
+        .reviews__icon_comments {
+            background: url(../img/shape.png) left 60% no-repeat;
+        }
+        .reviews__instance {
+            margin-top: 13px;
+            padding-bottom: 4px;
+        }
+        .reviews__name {
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+        .reviews__date {
+            font-weight: normal;
+            margin-left: 3px;
+            font-size: 11px;
+            color: #8d8d8d;
+        }
+        .reviews__text {
+            line-height: 19px;
+            padding: 15px 18px;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-left: 10px solid #ccc;
+            position: absolute;
+            top: -10px;
+            left: 23px;
+        }
+        .triangle:after{
+            content:'';
+            width: 0;
+            height: 0;
+            border-top: 9px solid transparent;
+            border-left: 9px solid #fff;
+            position:absolute;
+            top: -8px;
+            left: -9px;
+        }
+        .reviews__creation_text {
+            display: block;
+            margin-top: 25px;
+            width: 100%;
+            height: 65px;
+            text-indent: 5px;
+            font-size: 14px;
+            border-radius: 3px;
+            border: 1px solid #a9a9a9;
+        }
+        .reviews__creation_btn {
+            display: block;
+            width: 62%;
+            margin: 22px auto 0;
+            border-radius: 50px;
+            height: 42px;
+            background-color: #fdd639;
+            color: #000;
+            font: bold 16px 'PT Sans',Arial,sans-serif;
+        }

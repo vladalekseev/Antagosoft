@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <section class="about">
+        <div class="about__photo">
+            <img src="img/Photo.png" alt="Вероника Ростова">
+        </div>
+        <div class="about__info">
+            <h1 class="about__name">Вероника Ростова</h1>
+            <div class="about__job">Менеджер по продажам</div>
+            <p class="about__description">Подберу для вас самые лучшие предложения.<br />Мои услуги абсолютно бесплатны</p>
+            <div class="about__services">
+                <header class="services__header">Услуг</header>
+                <ul class="services__types">
+                    <li class="services__name">Ручное бронирование <span>11</span></li>
+                    <li class="services__name services__name_tours">Пакетные туры <span>3</span></li>
+                    <li class="services__name services__name_hotels ">Отели <span>1</span></li>
+                </ul>
+                <footer class="services__total">Всего <span>15</span></footer>
+            </div>
+        </div>
+
+    </section>
+    <section class="reviews">
+        <header class="reviews__header">
+            <h3>Последние отзывы</h3>
+            <button class="reviews__btn">Все отзывы</button>
+            <div class="reviews__icons-container">
+                <div class="reviews__icon reviews__icon_likes">131</div>
+                <div class="reviews__icon reviews__icon_comments">14</div>
+            </div>
+            <div class="reviews__container" id="root"></div>
+        </header>
+    </section>
+</div>
+
+<script src="js/bundle.js"></script>
+
+</body>
+</html>
